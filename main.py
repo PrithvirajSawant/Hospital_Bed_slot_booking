@@ -9,6 +9,7 @@ from flask_login import login_required,logout_user,login_user,login_manager,Logi
 
 # from flask_mail import Mail
 import json
+# kljnafvoieqjv p]EJV[P
 
 
 # mydatabase connection
