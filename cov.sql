@@ -43,8 +43,8 @@ CREATE TABLE `bookingpatient` (
 --
 
 INSERT INTO `bookingpatient` (`id`, `srfid`, `bedtype`, `hcode`, `spo2`, `pname`, `pphone`, `paddress`) VALUES
-(3, 'KA20210011', 'ICUBed', 'MAT123', 85, 'ARK', '9986786453', 'BANGALORE'),
-(4, 'KA20210022', 'ICUBed', 'BBH01', 92, 'kartik', '8088131784', 'banaglore ');
+(3, 'KA20210011', 'ICUBed', 'MAT123', 85, 'PJS', '6362943508', 'BANGALORE'),
+(4, 'KA20210022', 'ICUBed', 'BBH01', 92, 'sonu', '9449192788', 'banaglore ');
 
 -- --------------------------------------------------------
 
@@ -103,8 +103,8 @@ CREATE TABLE `hospitaluser` (
 --
 
 INSERT INTO `hospitaluser` (`id`, `hcode`, `email`, `password`) VALUES
-(7, 'BBH01', 'aneesrehman95567@gmail.com', 'pbkdf2:sha256:260000$im6PllE9qrd0asQY$3e62fcb9697d2b048acd83cb3658bac8ae5edb5ff58086699d134fb0ed41d788'),
-(9, 'MAT123', 'arkprocoder@gmail.com', 'pbkdf2:sha256:260000$CPDXGkSY1zXsarEA$fdbec84d1b2c32e521c75f51bb917daaa4f7a53e567e4478d23ba944c53b1177');
+(7, 'BBH01', 'prithvi456t@gmail.com', 'pbkdf2:sha256:260000$im6PllE9qrd0asQY$3e62fcb9697d2b048acd83cb3658bac8ae5edb5ff58086699d134fb0ed41d788'),
+(9, 'MAT123', 'prithvirajsawant15@gmail.com', 'pbkdf2:sha256:260000$CPDXGkSY1zXsarEA$fdbec84d1b2c32e521c75f51bb917daaa4f7a53e567e4478d23ba944c53b1177');
 
 -- --------------------------------------------------------
 
@@ -122,8 +122,8 @@ CREATE TABLE `test` (
 --
 
 INSERT INTO `test` (`id`, `name`) VALUES
-(1, 'anees'),
-(2, 'rehman');
+(1, 'prithviraj'),
+(2, 'sawant');
 
 -- --------------------------------------------------------
 
@@ -168,8 +168,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `srfid`, `email`, `dob`) VALUES
-(9, 'KA20210011', 'ark@gmail.com', 'pbkdf2:sha256:260000$AhqgDCims0G1LSEi$ada839cc254cd79f9708e777ae02d83cec210677c342e01c3affd8c1358775d9'),
-(10, 'KA20210022', 'rehman@gmail.com', 'pbkdf2:sha256:260000$74GEC2qyVtOiPl5s$2a95f811bbd5a50eaac0404fb8fa3682b6c3b67f4493037134c9672393136694');
+(9, 'KA20210011', 'prithvi456t@gmail.com', 'pbkdf2:sha256:260000$AhqgDCims0G1LSEi$ada839cc254cd79f9708e777ae02d83cec210677c342e01c3affd8c1358775d9'),
+(10, 'KA20210022', 'prithvirajsawant15@gmail.com', 'pbkdf2:sha256:260000$74GEC2qyVtOiPl5s$2a95f811bbd5a50eaac0404fb8fa3682b6c3b67f4493037134c9672393136694');
 
 --
 -- Indexes for dumped tables
